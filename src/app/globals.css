@@ -1,3 +1,9 @@
+
+  :root{
+    --AzulMarino: #0c1a2d;
+    --White: #fdfefc;
+  }
+
   html {
     line-height: 1.15;
     font-family: 'GandhiSansRegular', sans-serif;
