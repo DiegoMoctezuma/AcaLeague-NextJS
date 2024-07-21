@@ -28,7 +28,7 @@ const links = [
         href: '/equipos'
     },
     {
-        name: 'Desarrolladores',
+        name: 'Devs',
         icon: IoPeopleOutline,
         href: '/desarrolladores'
     }
@@ -42,12 +42,12 @@ export default function Header() {
                 <ul>
                     {
                         links.map(link => (
-                            <li>
-                                <Link key={link.name} href={link.href}>
+                            <Link key={link.name} href={link.href}>
+                                <li>
                                     <link.icon />
                                     {link.name}
-                                </Link>
-                            </li>
+                                </li>
+                            </Link>
                         ))
                     }
                 </ul>
