@@ -2,16 +2,16 @@ import React from 'react';
 import styles from './Banner.module.scss';
 import Image from 'next/image';
 
-import { dancing } from '@/app/ui/fonts';
-import jugador from '@/../public/jugador.svg';
+import jugador from '@/../public/Juagador-Logo.svg';
 
 export default function Banner() {
     return (
-        <div className={styles.container}>
-            <div className={styles.overlay}>
-                <Image src={jugador} width={250} height={250} alt='Jugador de soccer' />
-                <h2 className={dancing.className} >AcaLeague</h2>
+        <section className={styles.container}>
+            <div className={styles.name__container} >
+                <h1>acaleague</h1>
+                <h2>Gestiona tu liga de fútbol </h2>
             </div>
-        </div>
+            <Image src={jugador} alt="jugador"/>
+        </section>
     )
 }

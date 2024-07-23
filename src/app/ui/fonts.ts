@@ -1,3 +1,3 @@
-import { Dancing_Script } from 'next/font/google';
+import { Krona_One } from 'next/font/google';
 
-export const dancing = Dancing_Script({ subsets: ['latin'], weight: '400' });
+export const krona = Krona_One({ subsets: ['latin'], weight: '400' });

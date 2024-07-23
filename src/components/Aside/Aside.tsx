@@ -34,7 +34,7 @@ const links = [
     }
 ];
 
-export default function Header() {
+export default function Aside() {
     return (
         <aside className={styles.container}>
             <Image src={Logo} alt="AcaLeague" width={200} height={200} priority />

@@ -1,0 +1,25 @@
+.container{
+    background-color: var(--Black);
+    padding: 1rem 3rem 1rem 1rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__container{
+    width: 23%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    li a{
+        color: var(--White);
+        text-decoration: none;
+
+        transition: 0.4s;
+        &:hover{
+            color: var(--PrimaryOrange);
+        }
+    }
+}

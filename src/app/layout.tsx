@@ -1,9 +1,7 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import "./globals.css";
-import Layaout from "@/components/Layaout/Layaout";
 
-const inter = Inter({ subsets: ["latin"] });
+import { krona } from '@/app/ui/fonts';
 
 export const metadata: Metadata = {
   title: "AcaLeague"
@@ -16,10 +14,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
-        <Layaout>
+      <body className={krona.className}>
           {children}
-        </Layaout>
       </body>
     </html>
   );

@@ -1,16 +1,18 @@
 
   :root{
-    --Naranja: #dc6310;
+    --PrimaryOrange: #E24409;
+    --SecundaryOrange: #600000;
     --AzulMarino: #0c1a2d;
     --White: #fdfefc;
+    --Black: #000000;
   }
 
   html {
     line-height: 1.15;
     font-family: 'GandhiSansRegular', sans-serif;
     -webkit-text-size-adjust: 100%;
-    background: linear-gradient(120deg, var(--White) 0%, var(--AzulMarino) 50%);
   }
+
   body {
     margin: 0;
   }

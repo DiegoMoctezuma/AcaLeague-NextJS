@@ -1,0 +1,27 @@
+.container{
+    margin-bottom: 20rem;
+    padding: 0 4rem;
+    height: 75vh;
+    background-image: url('/Fondo-Info.png');
+    
+    color: var(--White);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+
+    h2, div{
+        width: 55%;
+    }
+
+    div{
+        display: flex;
+        flex-wrap: wrap;
+
+        p{
+            width: 50%;
+            font-size: 0.9rem;
+            margin: .5rem 0;
+        }
+    }
+}
