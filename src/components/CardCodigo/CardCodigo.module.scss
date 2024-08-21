@@ -1,0 +1,30 @@
+.container{
+    max-width: 100%;
+    padding: .5rem;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background: linear-gradient(180deg, var(--White) 0%, var(--BlueSky) 83%);
+    border-radius: 20px;
+    box-shadow: 0 0 25px var(--Black);
+    text-decoration: none;
+
+    cursor: pointer;
+    transition: 0.4s ease;
+    &:hover{
+        transform: scale(1.05);
+    box-shadow: 0 0 30px var(--White);
+    }
+}
+
+.info__container{
+    width: 90%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    color: var(--White);
+}
